@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         content.title = "How many days are there in one year"
         content.subtitle = "Do you know?"
         content.body = "Do you really know?"
+        content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "customSound.aiff"))
         content.badge = 1
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)

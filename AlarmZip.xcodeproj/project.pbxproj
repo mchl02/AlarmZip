@@ -14,6 +14,7 @@
 		E8CC8AA922409811002D8274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CC8AA722409811002D8274 /* LaunchScreen.storyboard */; };
 		E8CC8AB422409811002D8274 /* AlarmZipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC8AB322409811002D8274 /* AlarmZipTests.swift */; };
 		E8CC8ABF22409811002D8274 /* AlarmZipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC8ABE22409811002D8274 /* AlarmZipUITests.swift */; };
+		E8CC8ACD2241597B002D8274 /* customSound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = E8CC8ACC2241597B002D8274 /* customSound.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E8CC8ABA22409811002D8274 /* AlarmZipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmZipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CC8ABE22409811002D8274 /* AlarmZipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmZipUITests.swift; sourceTree = "<group>"; };
 		E8CC8AC022409811002D8274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CC8ACC2241597B002D8274 /* customSound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = customSound.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E8CC8A9E2240980F002D8274 /* AppDelegate.swift */,
 				E8CC8AA02240980F002D8274 /* ViewController.swift */,
+				E8CC8ACC2241597B002D8274 /* customSound.aiff */,
 				E8CC8AA22240980F002D8274 /* Main.storyboard */,
 				E8CC8AA522409811002D8274 /* Assets.xcassets */,
 				E8CC8AA722409811002D8274 /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8CC8AA922409811002D8274 /* LaunchScreen.storyboard in Resources */,
+				E8CC8ACD2241597B002D8274 /* customSound.aiff in Resources */,
 				E8CC8AA622409811002D8274 /* Assets.xcassets in Resources */,
 				E8CC8AA42240980F002D8274 /* Main.storyboard in Resources */,
 			);
